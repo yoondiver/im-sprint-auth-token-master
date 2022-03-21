@@ -5,9 +5,9 @@
     "passes": 17,
     "pending": 0,
     "failures": 0,
-    "start": "2022-03-21T09:25:23.108Z",
-    "end": "2022-03-21T09:25:23.257Z",
-    "duration": 149
+    "start": "2022-03-21T10:10:20.595Z",
+    "end": "2022-03-21T10:10:20.808Z",
+    "duration": 213
   },
   "tests": [
     {
@@ -41,14 +41,14 @@
     {
       "title": "데이터베이스와 연결할수 있어야 합니다",
       "fullTitle": "Authentication - Server Authentication - Database 데이터베이스와 연결할수 있어야 합니다",
-      "duration": 2,
+      "duration": 3,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "데이터베이스에 `Users` 테이블이 존재해야 합니다",
       "fullTitle": "Authentication - Server Authentication - Database 데이터베이스에 `Users` 테이블이 존재해야 합니다",
-      "duration": 7,
+      "duration": 34,
       "currentRetry": 0,
       "err": {}
     },
@@ -62,28 +62,28 @@
     {
       "title": "로그인 요청시 전달받은 유저 아이디 혹은 비밀번호가 잘못된 경우, 'not authorized'메세지가 응답에 포함되어야 합니다",
       "fullTitle": "Authentication - Server Authentication - Server ⛳️ POST /login 로그인 요청시 전달받은 유저 아이디 혹은 비밀번호가 잘못된 경우, 'not authorized'메세지가 응답에 포함되어야 합니다",
-      "duration": 58,
+      "duration": 51,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "로그인 요청시 전달받은 유저아이디, 비밀번호가 데이터베이스에 저장된 정보와 완벽히 일치하는 경우, 'ok'메세지가 응답에 포함되어야 합니다",
       "fullTitle": "Authentication - Server Authentication - Server ⛳️ POST /login 로그인 요청시 전달받은 유저아이디, 비밀번호가 데이터베이스에 저장된 정보와 완벽히 일치하는 경우, 'ok'메세지가 응답에 포함되어야 합니다",
-      "duration": 5,
+      "duration": 6,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "로그인 요청시 전달받은 유저아이디, 비밀번호가 데이터베이스에 저장된 정보와 완벽히 일치하는 경우, 응답에 accessToekn이 포함되어야 합니다",
       "fullTitle": "Authentication - Server Authentication - Server ⛳️ POST /login 로그인 요청시 전달받은 유저아이디, 비밀번호가 데이터베이스에 저장된 정보와 완벽히 일치하는 경우, 응답에 accessToekn이 포함되어야 합니다",
-      "duration": 3,
+      "duration": 4,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "응답에 전달되는 엑세스 토큰은 유저정보가 담긴 JWT 토큰이여만 합니다.\n      \t- 환경변수중 ACCESS_SECRET 변수를 사용하세요.\n      ",
       "fullTitle": "Authentication - Server Authentication - Server ⛳️ POST /login 응답에 전달되는 엑세스 토큰은 유저정보가 담긴 JWT 토큰이여만 합니다.\n      \t- 환경변수중 ACCESS_SECRET 변수를 사용하세요.\n      ",
-      "duration": 5,
+      "duration": 3,
       "currentRetry": 0,
       "err": {}
     },
@@ -97,7 +97,7 @@
     {
       "title": "헤더 authorization 부분이 없는 요청 혹은 잘못된 토큰을 전달받은 경우, 응답에는 'invalid access token' 메세지가 포함되어야 합니다",
       "fullTitle": "Authentication - Server Authentication - Server ⛳️ GET /accesstokenrequest 헤더 authorization 부분이 없는 요청 혹은 잘못된 토큰을 전달받은 경우, 응답에는 'invalid access token' 메세지가 포함되어야 합니다",
-      "duration": 2,
+      "duration": 3,
       "currentRetry": 0,
       "err": {}
     },
@@ -164,14 +164,14 @@
     {
       "title": "데이터베이스와 연결할수 있어야 합니다",
       "fullTitle": "Authentication - Server Authentication - Database 데이터베이스와 연결할수 있어야 합니다",
-      "duration": 2,
+      "duration": 3,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "데이터베이스에 `Users` 테이블이 존재해야 합니다",
       "fullTitle": "Authentication - Server Authentication - Database 데이터베이스에 `Users` 테이블이 존재해야 합니다",
-      "duration": 7,
+      "duration": 34,
       "currentRetry": 0,
       "err": {}
     },
@@ -185,28 +185,28 @@
     {
       "title": "로그인 요청시 전달받은 유저 아이디 혹은 비밀번호가 잘못된 경우, 'not authorized'메세지가 응답에 포함되어야 합니다",
       "fullTitle": "Authentication - Server Authentication - Server ⛳️ POST /login 로그인 요청시 전달받은 유저 아이디 혹은 비밀번호가 잘못된 경우, 'not authorized'메세지가 응답에 포함되어야 합니다",
-      "duration": 58,
+      "duration": 51,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "로그인 요청시 전달받은 유저아이디, 비밀번호가 데이터베이스에 저장된 정보와 완벽히 일치하는 경우, 'ok'메세지가 응답에 포함되어야 합니다",
       "fullTitle": "Authentication - Server Authentication - Server ⛳️ POST /login 로그인 요청시 전달받은 유저아이디, 비밀번호가 데이터베이스에 저장된 정보와 완벽히 일치하는 경우, 'ok'메세지가 응답에 포함되어야 합니다",
-      "duration": 5,
+      "duration": 6,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "로그인 요청시 전달받은 유저아이디, 비밀번호가 데이터베이스에 저장된 정보와 완벽히 일치하는 경우, 응답에 accessToekn이 포함되어야 합니다",
       "fullTitle": "Authentication - Server Authentication - Server ⛳️ POST /login 로그인 요청시 전달받은 유저아이디, 비밀번호가 데이터베이스에 저장된 정보와 완벽히 일치하는 경우, 응답에 accessToekn이 포함되어야 합니다",
-      "duration": 3,
+      "duration": 4,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "응답에 전달되는 엑세스 토큰은 유저정보가 담긴 JWT 토큰이여만 합니다.\n      \t- 환경변수중 ACCESS_SECRET 변수를 사용하세요.\n      ",
       "fullTitle": "Authentication - Server Authentication - Server ⛳️ POST /login 응답에 전달되는 엑세스 토큰은 유저정보가 담긴 JWT 토큰이여만 합니다.\n      \t- 환경변수중 ACCESS_SECRET 변수를 사용하세요.\n      ",
-      "duration": 5,
+      "duration": 3,
       "currentRetry": 0,
       "err": {}
     },
@@ -220,7 +220,7 @@
     {
       "title": "헤더 authorization 부분이 없는 요청 혹은 잘못된 토큰을 전달받은 경우, 응답에는 'invalid access token' 메세지가 포함되어야 합니다",
       "fullTitle": "Authentication - Server Authentication - Server ⛳️ GET /accesstokenrequest 헤더 authorization 부분이 없는 요청 혹은 잘못된 토큰을 전달받은 경우, 응답에는 'invalid access token' 메세지가 포함되어야 합니다",
-      "duration": 2,
+      "duration": 3,
       "currentRetry": 0,
       "err": {}
     },
