@@ -5,22 +5,22 @@
     "passes": 17,
     "pending": 0,
     "failures": 0,
-    "start": "2022-04-01T08:18:30.337Z",
-    "end": "2022-04-01T08:18:30.499Z",
-    "duration": 162
+    "start": "2022-04-01T08:20:21.573Z",
+    "end": "2022-04-01T08:20:21.727Z",
+    "duration": 154
   },
   "tests": [
     {
       "title": "인증서 파일이 존재해야 합니다",
       "fullTitle": "파일 및 환경변수 테스트 인증서 파일이 존재해야 합니다",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "환경변수에 데이터베이스 비밀번호가 존재해야 합니다",
       "fullTitle": "파일 및 환경변수 테스트 환경변수에 데이터베이스 비밀번호가 존재해야 합니다",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -41,14 +41,14 @@
     {
       "title": "데이터베이스와 연결할수 있어야 합니다",
       "fullTitle": "Authentication - Server Authentication - Database 데이터베이스와 연결할수 있어야 합니다",
-      "duration": 3,
+      "duration": 4,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "데이터베이스에 `Users` 테이블이 존재해야 합니다",
       "fullTitle": "Authentication - Server Authentication - Database 데이터베이스에 `Users` 테이블이 존재해야 합니다",
-      "duration": 6,
+      "duration": 5,
       "currentRetry": 0,
       "err": {}
     },
@@ -62,7 +62,7 @@
     {
       "title": "로그인 요청시 전달받은 유저 아이디 혹은 비밀번호가 잘못된 경우, 'not authorized'메세지가 응답에 포함되어야 합니다",
       "fullTitle": "Authentication - Server Authentication - Server ⛳️ POST /login 로그인 요청시 전달받은 유저 아이디 혹은 비밀번호가 잘못된 경우, 'not authorized'메세지가 응답에 포함되어야 합니다",
-      "duration": 56,
+      "duration": 54,
       "currentRetry": 0,
       "err": {}
     },
@@ -76,7 +76,7 @@
     {
       "title": "로그인 요청시 전달받은 유저아이디, 비밀번호가 데이터베이스에 저장된 정보와 완벽히 일치하는 경우, 응답에 accessToekn이 포함되어야 합니다",
       "fullTitle": "Authentication - Server Authentication - Server ⛳️ POST /login 로그인 요청시 전달받은 유저아이디, 비밀번호가 데이터베이스에 저장된 정보와 완벽히 일치하는 경우, 응답에 accessToekn이 포함되어야 합니다",
-      "duration": 6,
+      "duration": 5,
       "currentRetry": 0,
       "err": {}
     },
@@ -90,7 +90,7 @@
     {
       "title": "로그인 성공시 전달되는 응답객체에는 refreshToken이 존재해야 합니다.",
       "fullTitle": "Authentication - Server Authentication - Server ⛳️ POST /login 로그인 성공시 전달되는 응답객체에는 refreshToken이 존재해야 합니다.",
-      "duration": 4,
+      "duration": 3,
       "currentRetry": 0,
       "err": {}
     },
@@ -136,14 +136,14 @@
     {
       "title": "인증서 파일이 존재해야 합니다",
       "fullTitle": "파일 및 환경변수 테스트 인증서 파일이 존재해야 합니다",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "환경변수에 데이터베이스 비밀번호가 존재해야 합니다",
       "fullTitle": "파일 및 환경변수 테스트 환경변수에 데이터베이스 비밀번호가 존재해야 합니다",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -164,14 +164,14 @@
     {
       "title": "데이터베이스와 연결할수 있어야 합니다",
       "fullTitle": "Authentication - Server Authentication - Database 데이터베이스와 연결할수 있어야 합니다",
-      "duration": 3,
+      "duration": 4,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "데이터베이스에 `Users` 테이블이 존재해야 합니다",
       "fullTitle": "Authentication - Server Authentication - Database 데이터베이스에 `Users` 테이블이 존재해야 합니다",
-      "duration": 6,
+      "duration": 5,
       "currentRetry": 0,
       "err": {}
     },
@@ -185,7 +185,7 @@
     {
       "title": "로그인 요청시 전달받은 유저 아이디 혹은 비밀번호가 잘못된 경우, 'not authorized'메세지가 응답에 포함되어야 합니다",
       "fullTitle": "Authentication - Server Authentication - Server ⛳️ POST /login 로그인 요청시 전달받은 유저 아이디 혹은 비밀번호가 잘못된 경우, 'not authorized'메세지가 응답에 포함되어야 합니다",
-      "duration": 56,
+      "duration": 54,
       "currentRetry": 0,
       "err": {}
     },
@@ -199,7 +199,7 @@
     {
       "title": "로그인 요청시 전달받은 유저아이디, 비밀번호가 데이터베이스에 저장된 정보와 완벽히 일치하는 경우, 응답에 accessToekn이 포함되어야 합니다",
       "fullTitle": "Authentication - Server Authentication - Server ⛳️ POST /login 로그인 요청시 전달받은 유저아이디, 비밀번호가 데이터베이스에 저장된 정보와 완벽히 일치하는 경우, 응답에 accessToekn이 포함되어야 합니다",
-      "duration": 6,
+      "duration": 5,
       "currentRetry": 0,
       "err": {}
     },
@@ -213,7 +213,7 @@
     {
       "title": "로그인 성공시 전달되는 응답객체에는 refreshToken이 존재해야 합니다.",
       "fullTitle": "Authentication - Server Authentication - Server ⛳️ POST /login 로그인 성공시 전달되는 응답객체에는 refreshToken이 존재해야 합니다.",
-      "duration": 4,
+      "duration": 3,
       "currentRetry": 0,
       "err": {}
     },
