@@ -5,9 +5,9 @@
     "passes": 17,
     "pending": 0,
     "failures": 0,
-    "start": "2022-04-01T08:20:21.573Z",
-    "end": "2022-04-01T08:20:21.727Z",
-    "duration": 154
+    "start": "2022-04-19T16:12:21.368Z",
+    "end": "2022-04-19T16:12:21.538Z",
+    "duration": 170
   },
   "tests": [
     {
@@ -41,7 +41,7 @@
     {
       "title": "데이터베이스와 연결할수 있어야 합니다",
       "fullTitle": "Authentication - Server Authentication - Database 데이터베이스와 연결할수 있어야 합니다",
-      "duration": 4,
+      "duration": 3,
       "currentRetry": 0,
       "err": {}
     },
@@ -62,7 +62,7 @@
     {
       "title": "로그인 요청시 전달받은 유저 아이디 혹은 비밀번호가 잘못된 경우, 'not authorized'메세지가 응답에 포함되어야 합니다",
       "fullTitle": "Authentication - Server Authentication - Server ⛳️ POST /login 로그인 요청시 전달받은 유저 아이디 혹은 비밀번호가 잘못된 경우, 'not authorized'메세지가 응답에 포함되어야 합니다",
-      "duration": 54,
+      "duration": 58,
       "currentRetry": 0,
       "err": {}
     },
@@ -83,14 +83,14 @@
     {
       "title": "응답에 전달되는 엑세스 토큰은 유저정보가 담긴 JWT 토큰이여만 합니다.\n      \t- 환경변수중 ACCESS_SECRET 변수를 사용하세요.\n      ",
       "fullTitle": "Authentication - Server Authentication - Server ⛳️ POST /login 응답에 전달되는 엑세스 토큰은 유저정보가 담긴 JWT 토큰이여만 합니다.\n      \t- 환경변수중 ACCESS_SECRET 변수를 사용하세요.\n      ",
-      "duration": 4,
+      "duration": 5,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "로그인 성공시 전달되는 응답객체에는 refreshToken이 존재해야 합니다.",
       "fullTitle": "Authentication - Server Authentication - Server ⛳️ POST /login 로그인 성공시 전달되는 응답객체에는 refreshToken이 존재해야 합니다.",
-      "duration": 3,
+      "duration": 4,
       "currentRetry": 0,
       "err": {}
     },
@@ -118,7 +118,7 @@
     {
       "title": "유효하지 않은 리프레쉬 토큰을 전달받은 경우,  'invalid refresh token, please log in again'메세지를 보내야 합니다",
       "fullTitle": "Authentication - Server Authentication - Server ⛳️ GET /refreshtokenrequest 유효하지 않은 리프레쉬 토큰을 전달받은 경우,  'invalid refresh token, please log in again'메세지를 보내야 합니다",
-      "duration": 4,
+      "duration": 3,
       "currentRetry": 0,
       "err": {}
     },
@@ -164,7 +164,7 @@
     {
       "title": "데이터베이스와 연결할수 있어야 합니다",
       "fullTitle": "Authentication - Server Authentication - Database 데이터베이스와 연결할수 있어야 합니다",
-      "duration": 4,
+      "duration": 3,
       "currentRetry": 0,
       "err": {}
     },
@@ -185,7 +185,7 @@
     {
       "title": "로그인 요청시 전달받은 유저 아이디 혹은 비밀번호가 잘못된 경우, 'not authorized'메세지가 응답에 포함되어야 합니다",
       "fullTitle": "Authentication - Server Authentication - Server ⛳️ POST /login 로그인 요청시 전달받은 유저 아이디 혹은 비밀번호가 잘못된 경우, 'not authorized'메세지가 응답에 포함되어야 합니다",
-      "duration": 54,
+      "duration": 58,
       "currentRetry": 0,
       "err": {}
     },
@@ -206,14 +206,14 @@
     {
       "title": "응답에 전달되는 엑세스 토큰은 유저정보가 담긴 JWT 토큰이여만 합니다.\n      \t- 환경변수중 ACCESS_SECRET 변수를 사용하세요.\n      ",
       "fullTitle": "Authentication - Server Authentication - Server ⛳️ POST /login 응답에 전달되는 엑세스 토큰은 유저정보가 담긴 JWT 토큰이여만 합니다.\n      \t- 환경변수중 ACCESS_SECRET 변수를 사용하세요.\n      ",
-      "duration": 4,
+      "duration": 5,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "로그인 성공시 전달되는 응답객체에는 refreshToken이 존재해야 합니다.",
       "fullTitle": "Authentication - Server Authentication - Server ⛳️ POST /login 로그인 성공시 전달되는 응답객체에는 refreshToken이 존재해야 합니다.",
-      "duration": 3,
+      "duration": 4,
       "currentRetry": 0,
       "err": {}
     },
@@ -241,7 +241,7 @@
     {
       "title": "유효하지 않은 리프레쉬 토큰을 전달받은 경우,  'invalid refresh token, please log in again'메세지를 보내야 합니다",
       "fullTitle": "Authentication - Server Authentication - Server ⛳️ GET /refreshtokenrequest 유효하지 않은 리프레쉬 토큰을 전달받은 경우,  'invalid refresh token, please log in again'메세지를 보내야 합니다",
-      "duration": 4,
+      "duration": 3,
       "currentRetry": 0,
       "err": {}
     },
